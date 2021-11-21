@@ -1,9 +1,10 @@
 from flask import Flask
-import pandas as pd
+from flask_cors import CORS
 
 from routes.profile import profile
 
 app = Flask(__name__)
+CORS(app)
 app.register_blueprint(profile, url_prefix='/profile')
 
 @app.route('/')
