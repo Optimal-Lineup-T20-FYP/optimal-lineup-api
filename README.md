@@ -14,7 +14,7 @@ Installs virual environment to use our packages in.
 
 Creates virual environment in the name of 'venv'.
 
-### `. venv/bin/activate`(Linux) or '. venv/bin/activate'(Windows)
+### `. venv/bin/activate`(Linux) or `. venv/bin/activate`(Windows)
 
 Activates the virtual environment for working.
 
